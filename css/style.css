@@ -149,14 +149,12 @@ body {
 
 .nav {
 	background-color: #033048
-}
 
-.nav .header {
-	background: #033048;
 }
 
 .nav .header h1 {
 	color: white;
+	float: left;
 }
 
 .nav .header li{
