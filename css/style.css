@@ -155,20 +155,30 @@ body {
 .nav .header h1 {
 	color: white;
 	float: left;
+	margin-top: -1px;
+	margin-left: 40px;
+	font-weight: bolder;
+	font-size: 50px;
 }
 
 .nav .header li{
 	color: #f9e42e;
 	float: right;
+	padding: 25px;
+	font-weight: 600;
+	font-size: 20px;
 }
 
-.two-columns .column {
-	height: 400px;
-}
+
 
 .column {
 	float: left;
 	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.column img {
+	max-width: 80%;
 }
 
 .column:last-child {
@@ -177,10 +187,12 @@ body {
 
 .two-columns.has-sidebar .column:first-child {
 	width: 65.333333333268%;
+	height: 100%;
 }
 
 .two-columns.has-sidebar .column:last-child {
 	width: 32.66666666634%;
+	height: 100%;
 }
 
 .sign {
