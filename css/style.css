@@ -169,8 +169,6 @@ body {
 	font-size: 20px;
 }
 
-
-
 .column {
 	float: left;
 	margin-right: 2%;
@@ -179,6 +177,19 @@ body {
 
 .column img {
 	max-width: 80%;
+}
+
+.column h2 {
+	font-weight: 600;
+}
+
+.column p {
+	font-weight: lighter;
+}
+
+.column a {
+	font-weight: 600;
+	text-decoration: none;
 }
 
 .column:last-child {
