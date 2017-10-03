@@ -197,6 +197,12 @@ body {
 	max-width: 90%;
 }
 
+.learn a {
+	font-weight: 600;
+	text-decoration: none;
+	max-width: 90%;
+}
+
 .column ul {
 	list-style-type: none;
 	padding: 0px;
