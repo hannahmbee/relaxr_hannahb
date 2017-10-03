@@ -171,7 +171,7 @@ body {
 
 .column {
 	float: left;
-	margin-right: 4%;
+	margin-right: 2%;
 	margin-left: 2%;
 }
 
@@ -197,22 +197,32 @@ body {
 	max-width: 90%;
 }
 
+.column ul {
+	list-style-type: none;
+	padding: 0px;
+	font-weight: lighter;
+}
+
+.column h3 {
+	font-weight: bolder;
+}
+
 .column:last-child {
 	margin-right: 0;
 }
 
 .two-columns.has-sidebar .column:first-child {
-	width: 66%;
+	width: 61.3333333%;
 	height: 100%;
 }
 
 .two-columns.has-sidebar .column:last-child {
-	width: 22%;
+	width: 30.6666666%;
 	height: 100%;
 }
 
 .sign {
-		max-width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 	background-color: #f9e42e;
 	background-size: cover;
