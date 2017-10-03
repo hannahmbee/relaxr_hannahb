@@ -186,12 +186,12 @@ body {
 }
 
 .two-columns.has-sidebar .column:first-child {
-	width: 65.333333333268%;
+	width: 69%;
 	height: 100%;
 }
 
 .two-columns.has-sidebar .column:last-child {
-	width: 32.66666666634%;
+	width: 23%;
 	height: 100%;
 }
 
