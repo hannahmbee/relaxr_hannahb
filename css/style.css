@@ -171,25 +171,30 @@ body {
 
 .column {
 	float: left;
-	margin-right: 2%;
+	margin-right: 4%;
 	margin-left: 2%;
 }
 
 .column img {
-	max-width: 80%;
+	max-width: 90%;
 }
 
 .column h2 {
 	font-weight: 600;
+	max-width: 90%
 }
 
 .column p {
 	font-weight: lighter;
+	max-width: 90%;
 }
 
 .column a {
 	font-weight: 600;
 	text-decoration: none;
+	float: right;
+	margin-right: 20%;
+	max-width: 90%;
 }
 
 .column:last-child {
@@ -197,12 +202,12 @@ body {
 }
 
 .two-columns.has-sidebar .column:first-child {
-	width: 69%;
+	width: 66%;
 	height: 100%;
 }
 
 .two-columns.has-sidebar .column:last-child {
-	width: 23%;
+	width: 22%;
 	height: 100%;
 }
 
