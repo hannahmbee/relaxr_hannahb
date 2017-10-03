@@ -38,7 +38,7 @@ body {
 	margin: 0px;
 }
 
-h1 {
+.container h1 {
 	font-weight: bolder;
 	font-size: 50px;
 	color: white;
@@ -95,6 +95,7 @@ h1 {
 	margin: 0 auto;
 	padding-bottom: 20px;
 	font-weight: lighter;
+	background-color: white;
 }
 
 .benefits .container h2 {
@@ -147,11 +148,20 @@ h1 {
 }
 
 .nav {
+	background-color: #033048
+}
+
+.nav .header {
 	background: #033048;
 }
 
-.nav li{
+.nav .header h1 {
+	color: white;
+}
+
+.nav .header li{
 	color: #f9e42e;
+	float: right;
 }
 
 .two-columns .column {
