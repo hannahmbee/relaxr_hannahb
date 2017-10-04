@@ -188,6 +188,7 @@ body {
 .column p {
 	font-weight: lighter;
 	max-width: 90%;
+	padding-bottom: 20px;
 }
 
 .column a {
@@ -202,6 +203,10 @@ body {
 	font-weight: 600;
 	text-decoration: none;
 	max-width: 90%;
+}
+
+.column hr {
+	margin: 20px 0px;
 }
 
 .column ul {
