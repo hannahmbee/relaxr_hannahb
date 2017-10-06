@@ -227,12 +227,6 @@ body {
 	display: block;
 }
 
-/*
-.main p:first-letter {
-	font-size: 300%;
-}
-*/
-
 .firstcharacter {
 	float: left;
 	font-size: 45px;
@@ -241,9 +235,6 @@ body {
 	padding-right: 2px;
 }
 
-.hr p {
-	max-width: 100%;
-}
 
 .main a {
 	font-weight: 600;
@@ -281,6 +272,7 @@ body {
 
 .aside img {
 	max-width: 90%;
+	padding-top: 35px;
 }
 
 .aside p {
@@ -290,11 +282,13 @@ body {
 	margin-top: 5px;
 }
 
-.aside .about .learn a {
+.aside a {
 	font-weight: 600;
 	text-decoration: none;
 	color: #033048;
+	font-size: 12px;
 }
+
 /* Footer styles */
 
 .sign {
@@ -325,7 +319,7 @@ body {
 	background-color: #121212;
 	background-size: cover;
 	text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 }
 
 .footer h2 {
