@@ -126,7 +126,7 @@ body {
 
 
 .quote .container {
-		max-width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 	color: white;
 	font-weight: lighter;
@@ -157,14 +157,28 @@ body {
 	color: white;
 	float: left;
 	font-weight: bolder;
-	font-size: 50px;
+	font-size: 25px;
+	margin: 0px 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-.nav .header li{
+.list {
 	color: #f9e42e;
-	float: right;
-	font-weight: 600;
-	font-size: 15px;
+	font-weight: 400;
+	font-size: 12px;
+	
+}
+
+.nav ul {
+	padding-left: 250px;
+	margin-top: 0px;
+	padding-top: 20px;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 0px 10px;
 }
 
 .column {
@@ -180,6 +194,7 @@ body {
 .column h2 {
 	font-weight: 600;
 	max-width: 90%
+	font-size: 30px;
 }
 
 .column p {
